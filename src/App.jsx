@@ -12,37 +12,36 @@ const App = () => {
   });
   
   const itemsPerPage = 5; // Jumlah item per halaman
-  const [showFilters, setShowFilters] = useState(false); //State untuk div filter ditampilkan atau tidak
+  const [showFilters, setShowFilters] = useState(false); //State untuk div filter di awal false (hilang)
 
   // Fungsi untuk mengubah halaman saat pengguna mengklik tombol pagination
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
 
-  // Fungsi untuk menerapkan filter
+  // Fungsi buat starting filter
   const applyFilter = (filterKey, filterValue) => {
     setFilters({
       ...filters,
       [filterKey]: filterValue
     });
-    // Kembali ke halaman pertama setelah menerapkan filter
-    setCurrentPage(1);
-    //Div nya tampil ketika ada filter yang diterapkan
-    setShowFilters(true);
+    
+    setCurrentPage(1); // Kembali ke halaman pertama setelah menerapkan filter
+    setShowFilters(true); // Nengampilin showing filternya (background dll)
   };
 
-  // Fungsi untuk menghapus semua filter
+  // Fungsi buat clear  filter
   const clearFilters = () => {
     setFilters({
       role: "",
       level: "",
       contract: ""
     });
-    setCurrentPage(1); // Kembali ke halaman pertama setelah menghapus filter
-    setShowFilters(false);
+    setCurrentPage(1); // Kembali ke halaman pertama setelah ngehapus filter
+    setShowFilters(false); // Ngepahus showing filternya (background dll)
   };
 
-  // Menerapkan filter pada data pekerjaan
+  // Filter jobsnya
   const filteredJobs = jobListData.filter((job) => {
     return (
       job.role.includes(filters.role) &&
@@ -51,7 +50,7 @@ const App = () => {
     );
   });
 
-  // Hitung indeks item pertama dan terakhir untuk halaman saat ini
+  // Fungsi menghitung item pertama dan terakhir untuk halaman saat ini
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = filteredJobs.slice(
@@ -63,27 +62,29 @@ const App = () => {
     const updatedFilters = { ...filters };
     updatedFilters[filterKey] = "";
     setFilters(updatedFilters);
-    setCurrentPage(1); // Kembali ke halaman pertama setelah menghapus filter
+    setCurrentPage(1); // Kembali ke halaman pertama setelah ngehapus filter
+    setShowFilters(false); // Ngepahus showing filternya (background dll)
   };
 
   return (
     <>
-      {/* Header dan konten utama */}
+      
       <header className="bg-cyan-dark bg-no-repeat bg-cover h-44 bg-header-desktop"></header>
       <main className="bg-cyan-light min-h-[80vh] pb-8 px-6">
         <div className="max-w-5xl m-auto relative -top-8 ">
-          {/* Konten filter */}
+         
         
           {showFilters && (
           <div className="w-full max-w-5xl min-h-[4rem] mb-10">
-            {/* Filter */}
+            
             <div className="bg-white rounded-md px-7 py-4 w-full shadow-lg flex justify-between">
               <ul className="flex flex-wrap gap-4">
                 {Object.entries(filters).map(([key, value]) => (
-                  value && // Hanya tampilkan filter yang tidak kosong
+                  value && // Hanya tampilkan filter yang tidak kosong 
                   <li className="flex"
                    key={key}>
-                    <label  className="bg-cyan-light-2 px-2 py-1.5 text-sm text-cyan-dark font-bold rounded-l-md cursor-default" style={{ alignSelf: "center" }}>
+                    <label  className="bg-cyan-light-2 px-2 py-1.5 text-sm text-cyan-dark font-bold rounded-l-md cursor-default"
+                     style={{ alignSelf: "center" }}>
                        {value}
                     </label>
                     
@@ -110,7 +111,7 @@ const App = () => {
           </div>
           )}
 
-          {/* Daftar pekerjaan */}
+         
           <div>
             <ul>
               {currentItems.map((job, id) => (
@@ -122,7 +123,7 @@ const App = () => {
               ))}
             </ul>
           </div>
-          {/* Pagination */}
+         
           <nav className="mt-4">
             <ul className="flex flex-wrap justify-center">
               <Pagination
