@@ -2,7 +2,7 @@
   {
     "id": 1,
     "company": "FaceIt",
-    "logo": "./images/faceit.svg",
+    "logo": "/faceit.svg",
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
@@ -16,12 +16,14 @@
     ],
     "tools": [
       "RoR"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 2,
     "company": "Loop Studios",
-    "logo": "./images/loop-studios.svg",
+    "logo": "/loop-studios.svg",
     "new": false,
     "featured": false,
     "position": "Software Engineer",
@@ -36,12 +38,14 @@
     "tools": [
       "Ruby",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 3,
     "company": "Manage",
-    "logo": "./images/manage.svg",
+    "logo": "/manage.svg",
     "new": true,
     "featured": true,
     "position": "Fullstack Developer",
@@ -55,12 +59,14 @@
     ],
     "tools": [
       "React"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 4,
     "company": "Eyecam Co.",
-    "logo": "./images/eyecam-co.svg",
+    "logo": "/eyecam-co.svg",
     "new": false,
     "featured": false,
     "position": "Full Stack Engineer",
@@ -75,12 +81,14 @@
     ],
     "tools": [
       "Django"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 5,
     "company": "Photosnap",
-    "logo": "./images/photosnap.svg",
+    "logo": "/photosnap.svg",
     "new": true,
     "featured": true,
     "position": "Senior Frontend Developer",
@@ -94,12 +102,14 @@
       "CSS",
       "JavaScript"
     ],
-    "tools": []
-  },
+    "tools": [],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 6,
     "company": "FaceIt",
-    "logo": "./images/faceit.svg",
+    "logo": "/faceit.svg",
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
@@ -113,12 +123,14 @@
     ],
     "tools": [
       "RoR"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 7,
     "company": "Loop Studios",
-    "logo": "./images/loop-studios.svg",
+    "logo": "/loop-studios.svg",
     "new": false,
     "featured": false,
     "position": "Software Engineer",
@@ -133,12 +145,14 @@
     "tools": [
       "Ruby",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 8,
     "company": "MyHome",
-    "logo": "./images/myhome.svg",
+    "logo": "/myhome.svg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -151,12 +165,14 @@
       "CSS",
       "JavaScript"
     ],
-    "tools": []
-  },
+    "tools": [],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 9,
     "company": "Account",
-    "logo": "./images/account.svg",
+    "logo": "/account.svg",
     "new": true,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -171,12 +187,14 @@
     "tools": [
       "React",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 10,
     "company": "Eyecam Co.",
-    "logo": "./images/eyecam-co.svg",
+    "logo": "/eyecam-co.svg",
     "new": false,
     "featured": false,
     "position": "Full Stack Engineer",
@@ -191,12 +209,14 @@
     ],
     "tools": [
       "Django"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 11,
     "company": "The Air Filter Company",
-    "logo": "./images/the-air-filter-company.svg",
+    "logo": "/the-air-filter-company.svg",
     "new": false,
     "featured": false,
     "position": "Front-end Dev",
@@ -211,12 +231,14 @@
     "tools": [
       "React",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 12,
     "company": "Manage",
-    "logo": "./images/manage.svg",
+    "logo": "/manage.svg",
     "new": true,
     "featured": true,
     "position": "Fullstack Developer",
@@ -230,12 +252,14 @@
     ],
     "tools": [
       "React"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 13,
     "company": "FaceIt",
-    "logo": "./images/faceit.svg",
+    "logo": "/faceit.svg",
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
@@ -249,12 +273,14 @@
     ],
     "tools": [
       "RoR"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 14,
     "company": "MyHome",
-    "logo": "./images/myhome.svg",
+    "logo": "/myhome.svg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -267,12 +293,14 @@
       "CSS",
       "JavaScript"
     ],
-    "tools": []
-  },
+    "tools": [],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 15,
     "company": "Loop Studios",
-    "logo": "./images/loop-studios.svg",
+    "logo": "/loop-studios.svg",
     "new": false,
     "featured": false,
     "position": "Software Engineer",
@@ -287,12 +315,14 @@
     "tools": [
       "Ruby",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 16,
     "company": "Photosnap",
-    "logo": "./images/photosnap.svg",
+    "logo": "/photosnap.svg",
     "new": true,
     "featured": true,
     "position": "Senior Frontend Developer",
@@ -306,12 +336,14 @@
       "CSS",
       "JavaScript"
     ],
-    "tools": []
-  },
+    "tools": [],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 17,
     "company": "Insure",
-    "logo": "./images/insure.svg",
+    "logo": "/insure.svg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -326,12 +358,14 @@
     "tools": [
       "Vue",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 18,
     "company": "Insure",
-    "logo": "./images/insure.svg",
+    "logo": "/insure.svg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -346,12 +380,14 @@
     "tools": [
       "Vue",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 19,
     "company": "Photosnap",
-    "logo": "./images/photosnap.svg",
+    "logo": "/photosnap.svg",
     "new": true,
     "featured": true,
     "position": "Senior Frontend Developer",
@@ -365,12 +401,14 @@
       "CSS",
       "JavaScript"
     ],
-    "tools": []
-  },
+    "tools": [],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 20,
     "company": "The Air Filter Company",
-    "logo": "./images/the-air-filter-company.svg",
+    "logo": "/the-air-filter-company.svg",
     "new": false,
     "featured": false,
     "position": "Front-end Dev",
@@ -385,12 +423,14 @@
     "tools": [
       "React",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 21,
     "company": "Shortly",
-    "logo": "./images/shortly.svg",
+    "logo": "/shortly.svg",
     "new": false,
     "featured": false,
     "position": "Junior Developer",
@@ -405,12 +445,14 @@
     ],
     "tools": [
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 22,
     "company": "The Air Filter Company",
-    "logo": "./images/the-air-filter-company.svg",
+    "logo": "/the-air-filter-company.svg",
     "new": false,
     "featured": false,
     "position": "Front-end Dev",
@@ -425,12 +467,14 @@
     "tools": [
       "React",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 23,
     "company": "Eyecam Co.",
-    "logo": "./images/eyecam-co.svg",
+    "logo": "/eyecam-co.svg",
     "new": false,
     "featured": false,
     "position": "Full Stack Engineer",
@@ -445,12 +489,14 @@
     ],
     "tools": [
       "Django"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 24,
     "company": "Insure",
-    "logo": "./images/insure.svg",
+    "logo": "/insure.svg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -465,12 +511,14 @@
     "tools": [
       "Vue",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 25,
     "company": "Manage",
-    "logo": "./images/manage.svg",
+    "logo": "/manage.svg",
     "new": true,
     "featured": true,
     "position": "Fullstack Developer",
@@ -484,12 +532,14 @@
     ],
     "tools": [
       "React"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 26,
     "company": "MyHome",
-    "logo": "./images/myhome.svg",
+    "logo": "/myhome.svg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -502,12 +552,14 @@
       "CSS",
       "JavaScript"
     ],
-    "tools": []
-  },
+    "tools": [],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 27,
     "company": "Account",
-    "logo": "./images/account.svg",
+    "logo": "/account.svg",
     "new": true,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -522,12 +574,14 @@
     "tools": [
       "React",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 28,
     "company": "Account",
-    "logo": "./images/account.svg",
+    "logo": "/account.svg",
     "new": true,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -542,12 +596,14 @@
     "tools": [
       "React",
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 29,
     "company": "Shortly",
-    "logo": "./images/shortly.svg",
+    "logo": "/shortly.svg",
     "new": false,
     "featured": false,
     "position": "Junior Developer",
@@ -562,12 +618,14 @@
     ],
     "tools": [
       "Sass"
-    ]
-  },
+    ],
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac augue rhoncus, vestibulum justo nec, sollicitudin risus. Nulla efficitur viverra nunc. Curabitur quis fringilla nunc. Sed at massa sed lectus ullamcorper facilisis. Ut sed lectus sodales, laoreet elit ultricies, fringilla libero. Morbi blandit laoreet risus, vestibulum dictum elit tincidunt et. Proin nec tincidunt sapien. Proin condimentum dapibus nisl vel viverra. Duis placerat libero a nunc eleifend, in efficitur libero iaculis. Nulla est quam, fringilla vel lobortis id, lacinia at neque."
+    },
   {
     "id": 30,
     "company": "Shortly",
-    "logo": "./images/shortly.svg",
+    "logo": "/shortly.svg",
     "new": false,
     "featured": false,
     "position": "Junior Developer",

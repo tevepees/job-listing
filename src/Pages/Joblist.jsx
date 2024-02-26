@@ -1,4 +1,6 @@
 import React from "react";
+import { Route, Link } from 'react-router-dom';
+
 
 export const Joblist = ({ jobData, applyFilter }) => {
   const handleClick = (filterKey, filterValue) => {
@@ -27,12 +29,13 @@ export const Joblist = ({ jobData, applyFilter }) => {
               </span>
             )}
           </div>
-          <a
-            href="#"
+          <Link to={`/home/${jobData.id}`}>
+          <p
             className="block my-1 text-base font-bold hover:text-cyan-dark"
           >
             {jobData.position}
-          </a>
+          </p>
+          </Link>
           <ul className="flex text-cyan-dark-grayish gap-4 text-sm font-medium">
             <li>{jobData.postedAt}</li>
             <li className="before:content-['•'] before:mr-3 after:content-['•'] after:ml-3">

@@ -15,7 +15,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       {pageNumbers.map(number => (
         <li key={number} className="mx-1">
           <button
-            className={`px-4 py-2 rounded shadow text-blue-500 bg-white`}
+            className={`px-4 py-2 rounded shadow text-blue-500 bg-white`} //<< warna nanti ketika di pencet
             onClick={() => handleClick(number)}
           >
             {number}
