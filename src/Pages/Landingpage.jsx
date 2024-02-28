@@ -5,9 +5,10 @@ export const Landingpage = () => {
 
     return (
 <>
+
 <div className="min-h-screen bg-cyan-light relative overflow-hidden">
         <div className="absolute inset-0 bg-[#0f1e32] z-0"></div>
-        <main className="flex flex-col items-center px-6 relative z-10 min-h-screen justify-center">
+        {/* <main className="flex flex-col items-center px-6 relative z-10 min-h-screen justify-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-8 shadow-xl border p-4">
             Explore Programming <br /> Opportunities Worldwide
           </h1>
@@ -23,12 +24,32 @@ export const Landingpage = () => {
             </button>
             </Link>
           </div>
-        </main>
+        </main> */}
+        
+   
+    
         <img
           src="https://miro.medium.com/v2/resize:fit:1200/1*ZJBkfG3WN83TLlr7ESYrLA.jpeg" // Replace with your image path
           alt="Developer working on code"
           className="absolute inset-0 h-full w-full object-cover opacity-25"
         />
+        
+        
+    <form>
+        <h3>Login Here</h3>
+
+        <label className="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username"/>
+
+        <label className="password">Password</label>
+        <input type="password" placeholder="Password" id="password"/>
+
+        <button>Log In</button>
+        <div className="social">
+          <div className="go"><i className="fab fa-google"></i>  Google</div>
+          <div className="fb"><i className="fab fa-facebook"></i>  Facebook</div>
+        </div>
+    </form>
       </div>
 </>
 
