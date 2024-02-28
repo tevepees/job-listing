@@ -9,7 +9,7 @@ export default function PrivateRoute({
         return <Navigate to={redirecTo} />;
     }
     return (
-        <div style ={{display: "flex"}}>
+        <div>
     {children ? children : <Outlet/>}
 </div>
       );
