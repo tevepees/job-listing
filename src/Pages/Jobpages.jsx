@@ -3,6 +3,7 @@ import Joblist from "./Joblist.jsx";
 import Pagination from "../components/Pagination.jsx";
 import jobListData from "../data/data.json";
 import Header from "./Header.jsx";
+import { useNavigate } from "react-router-dom";
 
 
 export const Jobpages = () => {
@@ -68,6 +69,13 @@ export const Jobpages = () => {
     setShowFilters(false); // Ngepahus showing filternya (background dll)
   };
 
+  const navigate = useNavigate();
+  const handleClick = () => {
+    localStorage.removeItem('isLogin', true);
+    console.log(localStorage.removeItem);
+    navigate('/');
+  }
+
   return (
     <>
   
@@ -112,7 +120,7 @@ export const Jobpages = () => {
           </div>
           )}
 
-         
+       
           <div>
             <ul>
               {currentItems.map((job, id) => (

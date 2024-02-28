@@ -1,7 +1,12 @@
 import React from 'react';
 import { Route, Link } from 'react-router-dom';
+import Login from '../components/Login';
 
 export const Landingpage = () => {
+  // const handleLogin = (e) => {
+  //   e.preventDefault()
+  //     if (username ==))
+  // }
 
     return (
 <>
@@ -33,23 +38,7 @@ export const Landingpage = () => {
           alt="Developer working on code"
           className="absolute inset-0 h-full w-full object-cover opacity-25"
         />
-        
-        
-    <form>
-        <h3>Login Here</h3>
-
-        <label className="username">Username</label>
-        <input type="text" placeholder="Email or Phone" id="username"/>
-
-        <label className="password">Password</label>
-        <input type="password" placeholder="Password" id="password"/>
-
-        <button>Log In</button>
-        <div className="social">
-          <div className="go"><i className="fab fa-google"></i>  Google</div>
-          <div className="fb"><i className="fab fa-facebook"></i>  Facebook</div>
-        </div>
-    </form>
+        <Login/>
       </div>
 </>
 

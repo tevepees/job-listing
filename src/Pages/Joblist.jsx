@@ -8,6 +8,7 @@ export const Joblist = ({ jobData, applyFilter }) => {
   };
 
   return ( 
+    
     <li className={`relative bg-white p-7 rounded-md flex items-center gap-6 shadow-lg mb-12 lg:mb-6`}>
       <div className="absolute -top-7 w-14 lg:relative lg:w-auto lg:top-0">
         <img src={jobData.logo} alt={'image'} className="rounded-full w-full" />
