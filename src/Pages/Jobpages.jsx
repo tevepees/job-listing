@@ -70,6 +70,7 @@ export const Jobpages = () => {
 
   return (
     <>
+  
       <main className="bg-cyan-light min-h-[80vh] pb-8 px-6">
         <div className="max-w-5xl m-auto relative -top-8 ">
          

@@ -3,11 +3,11 @@ import jobListData from "../data/data.json";
 import { Route, Link, Outlet, useParams, useNavigate } from 'react-router-dom';
 
 export const Jobdetail = () => {
-  const { jobID } = useParams();
+  const { id } = useParams();
   const navigate = useNavigate();
 //   const params = useParams();
 //   params.jobID = jobID;
-const jobData = jobListData.find(job => jobID == job.id)
+const jobData = jobListData.find(job => id == job.id)
 
 const handleclick = () => {
 alert ("Thank you for your application!");
